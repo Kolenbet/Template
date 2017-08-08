@@ -13,7 +13,6 @@ class EmptyPage extends React.Component<any, any> {
 
   render() {
     const props = this.props;
-    console.log(props);
     return (
       <PageWrapper>
         <EmptyPageView {...props} />
