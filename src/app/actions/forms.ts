@@ -8,7 +8,7 @@ export function changeField(formName, fieldName, value) {
       fieldName,
       value
     }
-  } 
+  };
 }
 
 export function clearForm(formName) {
@@ -17,5 +17,15 @@ export function clearForm(formName) {
     payload: {
       formName
     }
-  }
+  };
+}
+
+export function setData(formName, data) {
+  return {
+    type: actionTypes.SET_DATA,
+    payload: {
+      formName,
+      data
+    }
+  };
 }

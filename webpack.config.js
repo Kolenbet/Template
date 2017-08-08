@@ -34,6 +34,5 @@ module.exports = {
       { test: /\.tsx?$/, loader: "awesome-typescript-loader" },
       { test: /\.(jpe?g|gif|png|svg|woff|ttf|eot|wav|mp3)$/, use: "file-loader" }
     ],
-
   },
 };

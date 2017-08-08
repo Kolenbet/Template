@@ -9,16 +9,16 @@ class App extends React.Component<any, any>{
       <div>
         <Link to='/empty'>empty</Link>
       </div>
-    )
+    );
   }
 }
 
 const mapStateToProps = (state) => {
-  return ('')
-}
+  return ({});
+};
 
 const mapDispatchToProps = (dispatch) => {
-  return ('')
-}
+  return ({});
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);

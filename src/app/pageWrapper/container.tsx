@@ -9,15 +9,16 @@ class PageWrapper extends React.Component<any, any> {
       <div>
         {props.children}
       </div>
-    )
+    );
   }
 }
 
 const mapStateToProps = (state, ownProps) => {
-  return ('')
-}
+  return ({});
+};
 
 const mapDispatchToProps = (dispatch) => {
-  return ('')
-}
-export default connect(mapStateToProps, mapDispatchToProps)(PageWrapper)
+  return ({});
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(PageWrapper);
